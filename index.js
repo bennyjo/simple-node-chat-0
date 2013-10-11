@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var server = require('http').Server(app);
 var io = require('socket.io').listen(server);
-var port = 3700;
+var port = 80;
 
 app.set('views', __dirname + '/templates');
 app.set('view engine', 'jade');
@@ -21,5 +21,5 @@ io.on('connection', function(socket){
 	});
 });
 
-server.listen(3700);
+server.listen(port);
 console.log('listening on port ' + port);
