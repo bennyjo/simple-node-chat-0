@@ -1,11 +1,13 @@
 {
-    "name": "chat-tutorial-1",
-    "version": "0.0.0",
-    "description": "Test to make a real time web chat",
-    "dependencies": {
-        "socket.io": "latest",
-        "express": "latest",
-        "jade": "latest"
-    },
-    "author": "Benny Johansson"
+  "name": "chat-tutorial-1",
+  "version": "0.0.0",
+  "description": "Test to make a real time web chat",
+  "dependencies": {
+    "socket.io": "latest",
+    "express": "latest",
+    "jade": "latest",
+    "grunt": "~0.4.1",
+    "grunt-replace": "~0.5.1"
+  },
+  "author": "Benny Johansson"
 }
